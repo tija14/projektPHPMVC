@@ -1,0 +1,228 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  box-shadow: 0px 0px 135px white;
+  padding: 10px;
+  background: white;
+  
+}
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+  overflow-y: scroll;
+  background: #62C7D0;
+  
+  
+  
+  
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 40px;
+  background: #62C7D0;
+  padding: 5px;
+  margin: 2px;
+}
+.navbar a{
+
+font-weight: bold;
+}
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 530px;
+  font-size: 48px;
+  font-family: impact;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 530px;
+  font-style: italic;
+  color: #666;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+  
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 22px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+
+/**
+ * For articles
+ */
+.article1 {
+  width: 700px;
+  border-right: 1px solid #ccc;
+  padding-right: 1em;
+  
+}
+
+.article1 h1,
+.article1 h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+.byline {
+  margin-top: 44px;
+  border-top: 1px dashed #ccc;
+  padding-top: 22px;
+  color: #666;
+}
+
+#bylineImg img{
+
+border-radius: 50%;
+height: 14%;
+width: 10%;
+box-shadow: 1px 1px black;
+float: right;
+
+}
+
+.byline p {
+  margin-top: 0;
+}
+#today {
+
+float: right;
+font-size: 12px;
+}
+
+#background{
+
+background: #DEB887;
+}
+.sitelogo {
+
+border-radius: 15px;
+padding: 4px;
+
+}
+#top{
+position: absolute;
+top: 0px;
+width: 100%;
+height: 20px;
+background: black;
+}
+
+#top a,
+#top p{
+
+color: white;
+text-decoration: none;
+
+}
+
+.answers{
+
+font-size: 18px;
+
+
+}
+
+.subcomments{
+
+font-size: 12px;
+
+
+}
+
+.comments,
+.comments a{
+
+text-decoration: none;
+
+}
+.comments a:hover{
+
+text-decoration: underline;
+}
+
+#name{
+
+font-size : 18px;
+box-shadow: 0px 0px 5px green;
+padding: 2px;
+
+
+
+}
+#time{
+
+font-size : 12px;
+
+
+}
+
+.users{
+
+float: right;
+border: 1px solid black;
+
+}
+
+#tag
+{
+
+
+box-shadow: 0px 0px 5px blue;
+
+}
+
+
+#question, 
+#question a{
+
+
+text-decoration: none;
+color: black;
+background: #62C7D0;
+width: 100px;
+height: 20px;
+padding: 2px;
+
+}
+#question a:hover{
+
+color: white;
+
+} 
